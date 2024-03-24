@@ -1,0 +1,268 @@
+/* ერთ-ერთ ფიგმას ფაილს რესპონსივები გაერილი აქვს */
+/* 1024, 744, 375 */
+/* ჩვენ გასაწერი გვაქვს 320-მდე */
+
+
+
+
+
+
+/* 1024 an naklebiooo */
+@media (max-width: 1000px) {
+  .top-header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+
+  .nav-ul {
+    width: 600px;
+    margin: auto 0;
+  }
+
+  .div-charcho {
+    align-items: center;
+    width: 800px;
+  }
+
+  .klub-section {
+    width: 95%;
+  }
+
+  .asparezobebi-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .aspar-div {
+    outline: #c3bdbd solid 2px;
+    padding-left: 2px;
+  }
+
+  .aspar-div-p {
+    width: 300px;
+
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 830px) {
+  .navigation {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .off-menu {
+    background-color: rgb(221, 164, 20);
+    opacity: 1;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease;
+    margin-top: 150px;
+    border-radius: 10px;
+    line-height: 2;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 20px;
+    color: black;
+
+  }
+
+  .school-gallery {
+    width: 100%;
+  }
+
+  .li-h,
+  .li-p {
+    width: 200px;
+  }
+
+  .div-charcho {
+    align-items: center;
+    width: 700px;
+  }
+}
+
+
+
+
+
+@media (max-width: 720px) {
+  .top-header-text {
+    font-size: 15px;
+  }
+
+  .ssg-shinaganawesi {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .last-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .div-charcho {
+    align-items: center;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .school-gallery-fotos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 530px) {
+  .top-header {
+    height: 50px;
+    justify-content: flex-end;
+  }
+
+  .top-header-text {
+    font-size: 14px;
+  }
+
+  .search-div {
+    display: none;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .school-name {
+    font-size: 24px;
+  }
+
+  .contact-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .right-block-contact {
+    display: none;
+  }
+
+  .right-block-contact-500 {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .left-block-contact {
+    margin-left: 20px;
+  }
+
+  .contact-span {
+    font-size: 16px;
+  }
+
+  .school-gallery-fotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div-charcho {
+    align-items: center;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+
+@media (max-width: 440px) {
+  .top-header {
+    height: 40px;
+    justify-content: flex-end;
+  }
+
+  .top-header-text {
+    font-size: 10px;
+  }
+
+
+  .last-div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+  }
+
+  .social-icon {
+    width: 150px;
+    margin-left: 0px;
+  }
+
+  .title-font {
+    font-size: 26px;
+  }
+
+  .main-text {
+    font-size: 14px;
+  }
+  .div-charcho {
+    align-items: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+.klub-section {padding-top: 20px;}
+
+
+@media (max-width: 340px) {
+  .top-header {
+    height: 40px;
+    justify-content: flex-end;
+
+  }
+
+  .top-header-text {
+    font-size: 9px;
+  }
+
+  .search-div {
+    display: none;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .school-name {
+    font-size: 20px;
+  }
+}
+
+}

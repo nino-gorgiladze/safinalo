@@ -1,0 +1,1031 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* index.html */
+
+.header-group {
+    /* max-width: 1220px; */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 120px;
+    z-index: 100;
+    /* position: relative; */
+}
+
+/* top-header */
+.top-header {
+    background-color: #0f1a59;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 50px;
+
+
+}
+
+.top-header>div {
+    text-align: right;
+
+}
+
+.top-header-text {
+    color: aliceblue;
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+
+
+/* header (logo+navigation */
+.header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 0;
+    left: 0;
+    background-color: white;
+    position: relative;
+}
+
+.nav-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 700px;
+    height: 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 40px;
+    /* margin-right: 50px; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+.nav-text {
+    font-weight: bold;
+    font-family: "MG Glaho Drunk", sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.active-nav-text {
+    color: red;
+}
+
+
+
+
+
+/* burger-bar */
+.burger {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+    display: none;
+}
+
+.burger span {
+    height: 7px;
+    width: 100%;
+    background-color: rgb(236, 187, 42);
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.burger span:nth-child(1) {
+    top: 25%;
+    background-color: black;
+}
+
+.burger span:nth-child(2) {
+    top: 50%;
+    background-color: rgb(7, 202, 219);
+}
+
+.burger span:nth-child(3) {
+    top: 75%;
+    background-color: rgb(236, 172, 33);
+}
+
+
+.burger.active span:nth-child(1) {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+        -ms-transform: translate(-50%, -50%) rotate(45deg);
+            transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+        -ms-transform: translate(-50%, -50%) rotate(-45deg);
+            transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+.off-menu {
+    background-color: rgb(221, 164, 20);
+    opacity: 0.9;
+    width: 100%;
+    color: black;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+    margin-top: 150px;
+    z-index: 10;
+    font-family: "BPG Ucnobi", sans-serif;
+}
+
+.off-menu.active {
+    right: 0;
+}
+
+
+
+
+.end-header {
+    height: 30px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#f5b106), to(white));
+    background-image: -o-linear-gradient(white, #f5b106, white);
+    background-image: linear-gradient(white, #f5b106, white);
+}
+
+
+
+/* skola.html */
+
+.school-name {
+    font-size: 33px;
+    -webkit-text-decoration: solid;
+            text-decoration: solid;
+    position: absolute;
+    color: rgb(12, 12, 11);
+    text-shadow: 2px 2px 8px #010202;
+    font-weight: bold;
+    font-family: "MG Glaho Drunk", sans-serif;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 12;
+}
+
+.school-name-div {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.container {
+    height: 355px;
+    /* max-width: 1220px; */
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    padding-top: 150px;
+    margin: 0 auto;
+
+}
+
+.box {
+    width: 100%;
+    height: 355px;
+    border: 0px inset rgba(255, 255, 255, 0.4);
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 50%;
+        border: 1px dashed rgba(255, 255, 255, 0.4);
+        -webkit-transform: scale(1.42);
+            -ms-transform: scale(1.42);
+                transform: scale(1.42);
+    }
+}
+
+.spin-container {
+    width: 100%;
+    height: 100%;
+    -webkit-animation: spin 12s ease-in-out infinite alternate;
+            animation: spin 12s ease-in-out infinite alternate;
+    position: relative;
+}
+
+.shape {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: border-radius 1s ease-out;
+    -o-transition: border-radius 1s ease-out;
+    transition: border-radius 1s ease-out;
+    border-radius: 52% 48% 67% 33% / 45% 25% 75% 55%;
+    -webkit-animation: morph 5s ease-in-out infinite both alternate;
+            animation: morph 5s ease-in-out infinite both alternate;
+    position: absolute;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.bd {
+    width: 142%;
+    height: 142%;
+    position: absolute;
+    left: -21%;
+    top: -21%;
+    background: url(../images/skola.jpg);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #003;
+    font-size: 5vw;
+    font-weight: bold;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    animation: spin 12s ease-in-out infinite alternate-reverse;
+    opacity: 1;
+    z-index: 2;
+}
+
+@-webkit-keyframes morph {
+    0% {
+        border-radius: 52% 48% 67% 33% / 45% 25% 75% 55%;
+    }
+
+    100% {
+        border-radius: 56% 44% 49% 51% / 19% 71% 29% 81%;
+    }
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 52% 48% 67% 33% / 45% 25% 75% 55%;
+    }
+
+    100% {
+        border-radius: 56% 44% 49% 51% / 19% 71% 29% 81%;
+    }
+}
+
+@-webkit-keyframes shape {
+    to {
+        /* transform: rotate(20deg); */
+        -webkit-transform: rotate(1turn);
+                transform: rotate(1turn)
+    }
+}
+
+@keyframes shape {
+    to {
+        /* transform: rotate(20deg); */
+        -webkit-transform: rotate(1turn);
+                transform: rotate(1turn)
+    }
+}
+
+
+
+/* klubebii */
+.klub-section {
+    text-align: center;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 50px;
+    row-gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+.div-charcho {
+    max-width: 1220px;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.klub-title {
+    margin: auto;
+}
+
+.klubs {
+    color: green;
+}
+
+.title-font {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin: auto;
+    font-family: "MG Glaho Drunk", sans-serif;
+    color: rgb(12, 12, 11);
+    text-shadow: 2px 2px 8px #010202;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.under-klub-title {
+    width: 250px;
+    height: 10px;
+    margin-left: auto;
+    position: relative;
+    margin: auto;
+
+}
+
+.under-klub-title span {
+    height: 10px;
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#f5b106), to(white));
+    background-image: -o-linear-gradient(white, #f5b106, white);
+    background-image: linear-gradient(white, #f5b106, white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+
+.main-text {
+    font-size: 18px;
+    line-height: 23px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* button შენც შეგიძლია შემოგვიერთდე */
+.forms-section {
+    margin-top: 120px;
+}
+
+.button {
+    border: none;
+    color: #04AA6D;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+         -o-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #04AA6D;
+}
+
+.button1:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.error-text {
+    color: red;
+}
+
+.registration-section {
+    width: 100%;
+    padding: 20px 50px;
+    background-color: #e3e0e0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.registration-section>div {
+    width: 100%;
+    margin: 10px;
+
+}
+
+.form-title {
+    text-align: center;
+
+}
+
+.div-form-wraper {
+    text-align: center;
+
+}
+
+.input-area {
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.check {
+    margin-top: 30px;
+}
+
+.form-submit-button {
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    border: 2px solid #04AA6D;
+}
+
+
+
+/* ასპარეზობები */
+.asparezobebi {
+   /* max-width: 1220px; */
+    width: 100%;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    background-color: #dcedf3;
+
+}
+
+.asparezobebi-div>div {margin:5px;}
+
+.asparezobebi-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  
+}
+
+
+
+.aspar-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2px;
+    outline: #b1b0b0 solid 4px;
+    
+}
+
+.aspar-div-p {
+    width: 200px;
+}
+
+
+
+
+
+/* last */
+.last {
+
+    background-color: #0f1a59;
+    padding: 70px 0px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.last-div {
+    max-width: 1220px;
+    width: 95%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.li-h {
+    width: 270px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 16px;
+
+}
+
+.li-h-text {
+    -webkit-text-decoration: underline rgb(249, 248, 248);
+            text-decoration: underline rgb(249, 248, 248);
+    font-size: 16px;
+}
+
+.li-p {
+    width: 270px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 8px;
+
+}
+
+.social-icon {
+    width: 180px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+}
+
+
+/* saavtoro uflebebze Tu raRac */
+.saavtoro {
+    border-style: solid;
+    border-width: 0.2px 0px 0px 0px;
+    border-color: #FFFFFF21;
+    padding: 20px;
+    background-color: #0f1a59;
+    height: 50px;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hower */
+.under-line {
+    position: relative;
+}
+
+.under-line::after {
+    content: ' ';
+    height: 2px;
+    width: 0%;
+    background-color: #0f1a59;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.under-line:hover::after {
+    width: 100%;
+    /* transition: all 1s; */
+}
+
+.under-line-on-blue {
+    position: relative;
+}
+
+
+.under-line-on-blue::after {
+    content: ' ';
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.under-line-on-blue:hover::after {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* CONTACT */
+
+.contact-section {
+    background-color: #EBEBF0;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+
+.contact-information {
+    margin-top: 40px;
+}
+
+.left-block-contact {
+    vertical-align: top;
+    margin-right: 50px;
+}
+
+
+.contact-span {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-main-text {
+    color: #19126B;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+
+
+.right-block-contact {
+    display: inline-block;
+    vertical-align: top;
+}
+.right-block-contact-500 {display: none;}
+
+.li2 {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ჩვენი გუნდი accordion */
+.katedrebi-section {
+    margin-top: 180px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    max-width: 600px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.accordion1 {
+    background-color: #0e38f4;
+}
+
+.accordion2 {
+    background-color: #4365ee;
+}
+
+.accordion3 {
+    background-color: #3f80e2;
+}
+
+.accordion5 {
+    background-color: #a6b4f1fd;
+}
+
+.accordion4 {
+    background-color: #76a7eb;
+}
+
+.accordion6 {
+    background-color: #b9c5eb;
+}
+
+.gundi-main-text {
+    max-width: 1220px;
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+/* .active, */
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.p-s {
+    margin: 20px 100px;
+    text-align: center;
+
+}
+
+.katedrebidafoto {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 30px auto;
+
+}
+
+.katedra-ul {
+    line-height: 1.8;
+}
+
+.katedra-ul-text {
+    font-size: 20px;
+}
+
+.katedrisfoto {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.katedrisfoto img {
+    width: 100%;
+
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.2s ease-out;
+    -o-transition: max-height 0.2s ease-out;
+    transition: max-height 0.2s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* skola.html */
+.school-ofic-section {
+    margin-top: 150px;
+}
+
+.school-ofic {
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 1220px;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    row-gap: 10px;
+}
+
+.school-misia {
+    max-width: 1220px;
+    max-width: 95%;
+    font-weight: bolder;
+    padding: 30px;
+    line-height: 1;
+}
+
+.ssg-shinaganawesi {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+}
+
+.school-gallery {
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 1220px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.school-gallery-desc {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.school-galery-main-text {
+    text-align: justify;
+    margin: 20px 20px;
+}
+
+
+.gallery {
+    border: 1px solid #ccc;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
